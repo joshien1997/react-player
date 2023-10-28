@@ -194,8 +194,14 @@ export default class YouTube extends Component {
       height: '100%',
       display
     }
+    const style2 = {
+      width: 100,
+      height: 100,
+      bor
+    }
     return (
       <div style={style}>
+        <div style={[style2, {backgroundColor: 'red'}]}></div>
         <div ref={this.ref} />
       </div>
     )
